@@ -498,3 +498,136 @@ color: #fff;
   color: #f4f4f4;
   margin-top: -3%;
 }
+
+/* General Media Query for Tablet Devices */
+@media screen and (max-width: 768px) {
+  /* Adjust navigation for smaller screens */
+  .nav-icons {
+    margin-left: auto;
+    margin-top: 10px;
+  }
+
+  /* Stack dropdown items vertically */
+  .dropdown {
+    flex-direction: column;
+  }
+
+  /* Adjust carousel for smaller screens */
+  .carousel-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-item {
+    width: 90%;
+  }
+
+  /* Adjust footer layout */
+  .footersection1, .footersection2, .footersection3, .footersection4 {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  /* Footer buttons alignment */
+  .facebook, .instagram {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .trademark {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .release {
+    float: none;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+  /* Stack navigation menu vertically */
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item a {
+    margin: 10px 0;
+  }
+
+  .nav-icons {
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  /* Reduce padding for carousel */
+  .carousel-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .carousel-item {
+    min-width: 120px;
+    margin: 0 5px;
+  }
+
+  .reviews-container, .about-section, .services-section {
+    width: 95%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  /* Adjust product grid */
+  .product-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .reviews-carousel-item, .review {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Footer alignment for mobile */
+  .footersection1, .footersection2, .footersection3, .footersection4 {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  /* Reduce footer height */
+  .footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .trademark {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .release {
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
